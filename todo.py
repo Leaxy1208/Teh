@@ -26,6 +26,3 @@ def delete_task(number):
 delete_task(1)
 show_tasks()
 
-#WIP
-#F
-#T

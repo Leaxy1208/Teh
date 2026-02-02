@@ -43,3 +43,10 @@ show_tasks()
 
 delete_task(2)   # Удаляем вторую задачу
 show_tasks()
+
+def mark_complete(number):
+    if 0 < number <= len(tasks):
+        tasks[number-1] = f"[V] {tasks[number-1]}"
+        print(f"Задача №{number} отмечена как выполненная!")
+    else:
+        print("Ошибка: задачи с таким номером не существует.")

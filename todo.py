@@ -15,3 +15,13 @@ def show_tasks():
 # Тест
 show_tasks()
 
+def delete_task(number):
+    if 0 < number <= len(tasks):
+        removed = tasks.pop(number - 1)
+        print(f"Удалено: {removed}")
+    else:
+        print("Ошибка: задачи с таким номером нет.")
+
+# Тест
+delete_task(1)
+show_tasks()

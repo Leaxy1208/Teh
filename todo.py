@@ -1,4 +1,4 @@
-tasks = []
+tasks = ["Задача из main"]
 
 def add_task(text):
     tasks.append(text)

@@ -25,3 +25,6 @@ def delete_task(number):
 # Тест
 delete_task(1)
 show_tasks()
+
+#WIP
+#F

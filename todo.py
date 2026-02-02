@@ -1,4 +1,4 @@
-tasks = []
+tasks = ["Задача из priority"]
 
 # 1. Функция добавления (add: приоритет)
 def add_task(text, priority="средний"):

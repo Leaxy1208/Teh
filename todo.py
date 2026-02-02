@@ -25,3 +25,7 @@ def delete_task(number):
 # Тест
 delete_task(1)
 show_tasks()
+
+def mark_complete(number):
+    if 0 < number <= len(tasks):
+        tasks[number-1] = f"[DONE] {tasks[number-1]}"
